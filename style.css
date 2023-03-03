@@ -1,46 +1,43 @@
 /* see the brand guide for colors, fonts, and images in CodePen: 
 https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
-
-h1{
- font-family: 'Poppins', sans-serif;
-  font-size:30px;
-  
-
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
 }
 
-p{
-  font-family: 'Lato', sans-serif;
+p {
+  font-family: "Lato", sans-serif;
   line-height: 2;
 }
 
-a{
-  color:white;
-  font-family: 'Lato', sans-serif;
-  text-decoration:none;
+a {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
 }
 
-.header{
-  background-color:#082B59;
+.header {
+  background-color: #082B59;
 }
 
-.footer{
-  background-color:#082B59;
+.footer {
+  background-color: #082B59;
 }
 
-.logo{
-  width:120px;
+.logo {
+  width: 120px;
   display: block;
   margin: 0 auto;
 }
 
-.navigation{
+.navigation {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
-.navigation > div{
-/*   background-color: #f1f1f1; */
+.navigation > div {
+  /*   background-color: #f1f1f1; */
   width: 100px;
   margin: 10px;
   text-align: center;
@@ -48,45 +45,44 @@ a{
   font-size: 14px;
 }
 
-.fa-solid{
-  color:white;
-  margin-right:5px;
+.fa-solid {
+  color: white;
+  margin-right: 5px;
 }
 
-.divider{
-  height:10px;
-  width:100%;
-  background-color:#D98555;
-  margin-bottom:none;
+.divider {
+  height: 10px;
+  width: 100%;
+  background-color: #D98555;
+  margin-bottom: none;
 }
 
-.card{
-  background-color:#59331D;
-  width:300px;
-  border-radius:25px;
+.card {
+  background-color: #59331D;
+  width: 300px;
+  border-radius: 25px;
 }
 
-.cardimg{
-  width:100%;
-  border-radius:25px 25px 0 0;
-  
+.cardimg {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
 }
 
-.card p{
-  color:white;
-  margin:10px;
+.card p {
+  color: white;
+  margin: 10px;
 }
 
-.copywrite p{
-  color:white;
-  text-align:center;
+.copywrite p {
+  color: white;
+  text-align: center;
 }
 
-.socials{
-  text-align:center;
+.socials {
+  text-align: center;
 }
 
-.button{
+.button {
   background-color: #59331D; /* Brown */
   border: none;
   color: white;
@@ -96,68 +92,77 @@ a{
   display: inline-block;
   font-size: 16px;
   margin: 2px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   border-radius: 12px;
 }
 
-.sanfran{
-  color:#59331D;
-  text-decoration:underline;
+.sanfran {
+  color: #59331D;
+  text-decoration: underline;
 }
 
-.aboutus p{
-  text-align:left;
+.aboutus p {
+  text-align: left;
 }
 
 .content {
-  background-color:#F2F2F2;
+  background-color: #F2F2F2;
 }
 
-.container{
+.container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 40px;
-  max-width:1000px;
-  margin:0px auto;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 
 @media screen and (max-width: 1000px) {
-
- .container{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  gap: 40px;
-  max-width:1000px;
-  margin:0px auto;
-}
-  .mobileimg{
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oAJ-mCT-HQEvmnVd95POZWWHYM4KLsGaqi_BJ2l9VETE8s0ROFcKP17efdzh2fh3GF8&usqp=CAU");
-  height:300px;
-  border-radius: 25px 25px 0 0;
-  background-position: center bottom; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-.cardimg{
-    display:none;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0px auto;
   }
-  .card{
-    width:100%;
+  .mobileimg {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oAJ-mCT-HQEvmnVd95POZWWHYM4KLsGaqi_BJ2l9VETE8s0ROFcKP17efdzh2fh3GF8&usqp=CAU");
+    height: 300px;
+    border-radius: 25px 25px 0 0;
+    background-position: center bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
   }
-
-  button{
-    width:100%;
+  .cardimg {
+    display: none;
   }
-
-  h1{
-    text-align:center;
-    font-size:32px;
+  .card {
+    width: 100%;
   }
-
-  p{
-    text-align:center;
+  button {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  p {
+    text-align: center;
     font-size: 14px;
   }
-
 }
+h2 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: red;
+  background-color: black;
+}
+
+h1 {
+  margin: 200px;
+  padding: 200px;
+}/*# sourceMappingURL=style.css.map */
